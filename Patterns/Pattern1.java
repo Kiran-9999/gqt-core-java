@@ -1,4 +1,4 @@
-/*package Patterns;
+package Patterns;
 
 public class Pattern1 {
 
@@ -7,4 +7,4 @@ public class Pattern1 {
 
 	}
 
-} */
+} 
