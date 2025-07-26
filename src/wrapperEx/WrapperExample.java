@@ -1,4 +1,4 @@
-package wrapperClassUse;
+package wrapperEx;
 import java.util.Scanner;
 public class WrapperExample {
 	public static void main(String args[]) {

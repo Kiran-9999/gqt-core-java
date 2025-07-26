@@ -1,4 +1,4 @@
-package staticSegmentExamples;
+package staticSegment;
 import java.util.Scanner;
 class Farmer{
 	double principle;

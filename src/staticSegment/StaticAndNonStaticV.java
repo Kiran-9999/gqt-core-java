@@ -1,4 +1,4 @@
-package staticSegmentExamples;
+package staticSegment;
 class Program1{
 	int a,b,c;
 	static int p,q,r;

@@ -1,4 +1,4 @@
-package staticSegmentExamples;
+package staticSegment;
 class Car{
 	String cname;
 	String cmodel;
