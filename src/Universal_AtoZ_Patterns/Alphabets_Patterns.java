@@ -349,7 +349,7 @@ public class Alphabets_Patterns {
 						}
 						System.out.print("		");	
 						
-			//		
+			//	Z	
 						for(int j=0;j<n;j++) {
 							
 							if(i+j ==n-1 || i==0 || i==n-1 ) 
@@ -364,6 +364,7 @@ public class Alphabets_Patterns {
 						System.out.print("		");	
 						
 			System.out.println();
+			sc.close();
 		}
 	}
 

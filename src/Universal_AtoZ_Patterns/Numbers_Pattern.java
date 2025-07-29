@@ -144,6 +144,7 @@ public class Numbers_Pattern {
 			System.out.print("		");
 			
 			System.out.println();
+			sc.close();
 		}
 	}
 
