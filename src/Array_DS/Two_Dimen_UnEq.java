@@ -2,17 +2,22 @@ package Array_DS;
 
 import java.util.Scanner;
 
-class ArrayOperations{
+class ArrayOperations1{
 	String arr[][];
 	Scanner sc =new Scanner(System.in);
 	
 	void createArray() {
 		System.out.println("Enter class count: ");
 		int cls=sc.nextInt();
-		System.out.println("enter student count in each class:");
-		int stu=sc.nextInt();
 		
-		arr =new String[cls][stu];
+		
+		arr =new String[cls][];
+		
+		for(int i=0;i<arr.length;i++) {
+			System.out.println("Enter the count of students inside the class no: "+(i+1));
+			arr[i] =new String[sc.nextInt()];
+		}
+		
 		System.out.println("Array is created!!!");
 		System.out.println("-------------------");
 	
@@ -45,16 +50,17 @@ class ArrayOperations{
 
 
 
-public class Two_Dimen_Ex {
+public class Two_Dimen_UnEq
+{
 	
 	
 
 	public static void main(String[] args) {
-		ArrayOperations ao=new ArrayOperations();
+		ArrayOperations1 ao=new ArrayOperations1();
 		ao.createArray();
 		ao.collectData();
 		ao.displayData();
-;
+
 	}
 
 }
