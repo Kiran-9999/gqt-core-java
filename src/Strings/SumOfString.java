@@ -13,7 +13,7 @@ public class SumOfString {
 			sum=sum+str.charAt(i);
 		}
 		System.out.println("The sum is: "+sum);
-
+		sc.close();
 	}
 
 }

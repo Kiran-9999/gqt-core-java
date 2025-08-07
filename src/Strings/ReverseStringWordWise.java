@@ -17,7 +17,7 @@ public class ReverseStringWordWise {
 		}
 		
 		//step2: Find the word count
-		int word_count=spc_count-1;
+		int word_count=spc_count+1;
 		
 		//step3: Create an array based on word count
 		String arr[]=new String[word_count];
@@ -37,9 +37,9 @@ public class ReverseStringWordWise {
 		}
 		arr[temp]=temp_str;
 		for(int i=0;i<arr.length;i++) {
-			System.out.println(arr[i]+" ");
+			System.out.print(arr[i]+" ");
 		}
-		
+		sc.close();
 		
 		
 		

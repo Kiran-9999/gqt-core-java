@@ -1,4 +1,4 @@
-package Strings;
+  package Strings;
 import java.util.Scanner;
 public class VowelCount {
 	public static void main(String args[]) {
