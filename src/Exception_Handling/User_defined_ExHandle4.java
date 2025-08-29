@@ -3,7 +3,7 @@ package Exception_Handling;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class User_defined_ExHandle3 {
+public class User_defined_ExHandle4 {
 	public static void main(String[] args) {
 		try {
 			Scanner sc = new Scanner(System.in);
@@ -29,19 +29,14 @@ public class User_defined_ExHandle3 {
 			System.out.println("value added");
 		}
 		
-		//Specific multiple Catch Block
+		//Specific Multi - Catch Block
 		
-		catch(InputMismatchException ime) {
-			System.out.println("Input mismatch exception was generated and handled!");
+		catch(InputMismatchException | ArithmeticException e1) {
+			System.out.println("Input mismatch exception was generated and handled! or " + "Arithematic Exception was generated and handled!");
 		}
-		catch(ArithmeticException ae) {
-			System.out.println(" Arithematic Exception was generated and handled!");
-		}
-		catch(NegativeArraySizeException nae) {
-			System.out.println("Negative Array Size Exception was generated and handled!");
-		}
-		catch(ArrayIndexOutOfBoundsException aie) {
-			System.out.println("Array Index Out Of Bounds Exception was generated and handled!");
+	
+		catch(NegativeArraySizeException | ArrayIndexOutOfBoundsException e2) {
+			System.out.println("Negative Array Size Exception was generated and handled! or " + "Array Index Out Of Bounds Exception was generated and handled! ");
 		}
 		
 		//Generic Catch Block
